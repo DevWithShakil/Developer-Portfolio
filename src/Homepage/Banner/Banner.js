@@ -3,13 +3,12 @@ import banner from '../../assets/logo/banner.png'
 import './banner.css';
 import doing from '../../assets/logo/doing.png'
 import { FaHtml5, FaCss3Alt, FaReact, FaNpm, FaNodeJs, FaJsSquare, FaBootstrap, FaVuejs, FaDatabase } from 'react-icons/fa';
-import { FcRight } from "react-icons/fc"
 
 
 const Banner = () => {
 
     return (
-        <div class=''>
+        <div>
             <div class='banner pb-10'>
 
                 <div>
@@ -78,7 +77,7 @@ const Banner = () => {
                             <h3 className='ml-14 pl-4 pt-2 text-xs'>Database</h3>
                         </div>
                     </div>
-                    <div class='text-xl mt-10 leading-loose'> <br />
+                    <div class='text-xl mt-10 leading-loose pb-10'> <br />
                         <h2>⚡ Develop highly interactive Front end / User Interfaces for your web <br /> <br />
                             ⚡ Progressive Website ( PWA ) in normal and SPA Stacks <br />
                             <br />
@@ -88,7 +87,9 @@ const Banner = () => {
 
                 </div>
             </div>
+            <hr className='hr' />
         </div >
+
     );
 };
 
