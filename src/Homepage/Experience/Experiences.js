@@ -7,7 +7,7 @@ import { BiCaretRight } from "react-icons/bi";
 
 const Experiences = () => {
     return (
-        <div class='bg-[#CDF0EA]' id='experienecs'>
+        <div class='bg-[#CDF0EA] mb-10 pb-10' id='experienecs'>
             <h2 class='text-5xl ml-10 mb-10 pt-10'>Experiences</h2>
             <div class='flex gap-10 justify-center'>
                 <div>
