@@ -14,9 +14,9 @@ const Navbar = () => {
                     <ul class="menu menu-horizontal p-0 justify-between gap-3 text-md font-bold mr-20">
                         <li><a href='#skills'>SKILLS</a></li>
                         <li><a href='#experienecs'>WORK EXPERIENCE</a></li>
-                        <li><a>PROJECTS</a></li>
+                        <li><a href='#projects'>PROJECTS</a></li>
                         <li><a>BLOGS</a></li>
-                        <li><a>ABOUT ME</a></li>
+                        <li><a href='#aboutMe'>ABOUT ME</a></li>
                         <li><a>CONTACT ME</a></li>
                     </ul>
                 </div>
