@@ -1,12 +1,12 @@
 import React from 'react';
 import logo1 from '../../assets/logo/logo1.png'
+import Contact from '../../Contact/Contact';
 import './navbar.css'
 
 const Navbar = () => {
     return (
-        <div class="navbar">
-            {/* sticky top-0 z-50 */}
-            <div class="navbar bg-base-100 mb-1">
+        <div class="navbar  sticky top-0 z-50">
+            <div class="navbar bg-base-100  mb-1">
                 <div class="navbar-start h-12 pt-7">
                     <img src={logo1} alt="" width={'250px'} height={''} />
                 </div>
